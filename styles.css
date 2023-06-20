@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+}
+
+img {
+    width: auto;
+    height: 100vh;
+}
+
+
+.right-side {
+    width: 40vw;
+    height: 95vh;
+    margin-top: 5vh;
+    margin-left: 4rem;
+}
+
+form {
+    width: 30rem;
+    height: 50vh;
+    border: .15rem black solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-element {
+    padding: 1rem;
+    border: .15rem hotpink solid;
+    width: 10rem;
+    height: 4rem;
+}
+
+.main-text {
+    border: .15rem hotpink solid;
+    padding: 1rem;
+    width: 30rem;
+}
+
+button {
+    width: 10rem;
+}
+
+.end-matter {
+    width: 30rem;
+    border: .15rem hotpink solid;
+    padding: 1rem;
+}
+
+.should-be-legend {
+    border: .15rem hotpink solid;
+    width: 30rem;
+    padding: 1rem;
+}
+
+.img {
+    position: relative;
+    margin: 0;
+}
+
+.image-credit {
+    position: absolute;
+    color: hotpink;
+    bottom: 10px;
+    left: 28%;
+}
+
+a {
+    color: hotpink;
+}
+
