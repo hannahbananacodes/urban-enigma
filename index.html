@@ -42,7 +42,7 @@
 
             <div class="form-element">
                 <label for="phone">Phone Number</label>
-                <input type="phone" name="phone" id="phone">
+                <input type="phone" name="phone" id="phone" placeholder="(808) 333-4242">
             </div>
 
             <div class="form-element">
@@ -54,9 +54,18 @@
                 <label for="confirm">Confirm Password</label>
                 <input type="password" name="confirm" id="confirm" placeholder="********" required>
             </div>
+
+            <div class="form-element">
+                <p>I am requesting a/an...</p>
+                <input type="radio" name="acct-type">
+                <label for="acct-type">Administrator account</label><br>
+
+                <input type="radio" name="acct-type" checked>
+                <label for="acct-type">User account</label>
+            </div>
             
             <div class="form-element">
-                <input name="tos" id="tos" type="checkbox">
+                <input name="tos" id="tos" type="checkbox" required>
                 <label for="tos">I accept the <a>terms of service</a>.</label>
             </div>
 

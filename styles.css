@@ -22,7 +22,7 @@ img {
 }
 
 form {
-    width: 30rem;
+    width: 45rem;
     height: 50vh;
     border: .15rem black solid;
     display: flex;
@@ -34,7 +34,7 @@ form {
 .form-element {
     padding: 1rem;
     border: .15rem hotpink solid;
-    width: 10rem;
+    width: 15rem;
     height: 4rem;
 }
 
