@@ -24,7 +24,7 @@ img {
 form {
     width: 45rem;
     height: 50vh;
-    border: .15rem black solid;
+    /*border: .15rem black solid;*/
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
@@ -33,13 +33,13 @@ form {
 
 .form-element {
     padding: 1rem;
-    border: .15rem hotpink solid;
+    /*border: .15rem hotpink solid;*/
     width: 15rem;
     height: 4rem;
 }
 
 .main-text {
-    border: .15rem hotpink solid;
+    /*border: .15rem hotpink solid;*/
     padding: 1rem;
     width: 30rem;
 }
@@ -50,14 +50,15 @@ button {
 
 .end-matter {
     width: 30rem;
-    border: .15rem hotpink solid;
+    /*border: .15rem hotpink solid;*/
     padding: 1rem;
 }
 
 .should-be-legend {
-    border: .15rem hotpink solid;
+    /*border: .15rem hotpink solid;*/
     width: 30rem;
     padding: 1rem;
+    font-weight: bold;
 }
 
 .img {
@@ -75,4 +76,5 @@ button {
 a {
     color: hotpink;
 }
+
 
