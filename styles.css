@@ -4,9 +4,13 @@
     font-family: "Roboto";
 }
 
+body {
+    display: flex;
+}
+
 .form-flex {
     display: flex;
-    width: 50%;
+
     flex-wrap: wrap;
     justify-content: between;
 }
@@ -47,4 +51,8 @@ label {
 
 .acct-owner {
     margin-left: 30px;
+}
+
+.palms {
+    height: 100vh;
 }
