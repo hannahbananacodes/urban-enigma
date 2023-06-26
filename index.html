@@ -12,71 +12,51 @@
     <title>Sign-Up Form</title>
 </head>
 <body>
-    <div class="img">
-        <img src="palms.jpg">
-        <p class="image-credit">photo by Peter Fogden on <a href="https://unsplash.com/photos/toB7tKXne7U">Unsplash</a></p>
-    </div>
-
-    <div class="right-side">
-        <div class="main-text">
-            <h3>This is not a real service. It is the only real service. Please do not submit your information to this form. It is absolutely 
-            imperative that you submit your information to this form.</h4>
-        </div><br>
-
-        <h4 class="should-be-legend">Let's do this!</h4><br>
-        <form>
-            <div class="form-element">
-                <label for="first-name">First Name</label><br>
-                <input type="text" placeholder="Ford" name="first-name" id="first-name">
+<div class="page-container">    
+    <h2 class="heading">
+        This is not a real online service! You know you need something like this in your life
+        to help you realize your deepest dreams.<br>
+        Sign up <em>now</em> to get started.<br><br>
+        You <em>know</em> you want to.
+    </h2>
+    <form>
+        <div class="form-flex">
+            <h2 class="form-legend">Let's do this!</h2>
+            <div class="fname">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" id="fname">
             </div>
 
-            <div class="form-element">
-                <label for="last-name">Last Name</label><br>
-                <input type="text" placeholder="Prefect" name="last-name" id="last-name">
+            <div class="lname">
+                <label for="lname">LAST NAME</label>
+                <input type="text" id="lname">
             </div>
 
-            <div class="form-element">
-                <label for="email">Email</label><br>
-                <input type="email" placeholder="f.prefect@theguide.gal" name="email" id="email" required>
+            <div class="email">
+                <label for="email" >EMAIL</label>
+                <input type="email" id="email">
             </div>
 
-            <div class="form-element">
-                <label for="phone">Phone Number</label><br>
-                <input type="tel" name="phone" id="phone" placeholder="(808) 333-4242">
+            <div class="phone">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone">
             </div>
 
-            <div class="form-element">
-                <label for="password">Password</label><br>
-                <input type="password" name="password" id="password" placeholder="********" required>
-            </div>
-
-            <div class="form-element">
-                <label for="confirm">Confirm Password</label>
-                <input type="password" name="confirm" id="confirm" placeholder="********" required>
-            </div>
-
-            <div class="form-element">
-                <p>I am requesting a/an...</p>
-                <input type="radio" name="acct-type">
-                <label for="acct-type">Administrator account</label><br>
-
-                <input type="radio" name="acct-type" checked>
-                <label for="acct-type">User account</label>
+            <div class="password">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password">
             </div>
             
-            <div class="form-element">
-                <input name="tos" id="tos" type="checkbox" required>
-                <label for="tos">I accept the <a>terms of service</a>.</label>
+            <div class="confirm">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm">
             </div>
-
-        </form><br>
-
-        <div class="end-matter" id="submit">
-            <button type="submit">Create Account</button><br><br>
-        
-            <p>Already have an account? <a>Log in</a></p>
         </div>
-    </div>
+        
+        <button type="submit">Create Account</button>
+    </form>
+    <div class="acct-owner">Already have an account? <a>Log in</a></div>
+</div>
 </body>
 </html>
 

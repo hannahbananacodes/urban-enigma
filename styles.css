@@ -4,77 +4,47 @@
     font-family: "Roboto";
 }
 
-body {
+.form-flex {
     display: flex;
-}
-
-img {
-    width: auto;
-    height: 100vh;
-}
-
-
-.right-side {
-    width: 40vw;
-    height: 95vh;
-    margin-top: 5vh;
-    margin-left: 4rem;
-}
-
-form {
-    width: 45rem;
-    height: 50vh;
-    /*border: .15rem black solid;*/
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
+    width: 50%;
     flex-wrap: wrap;
+    justify-content: between;
 }
 
-.form-element {
-    padding: 1rem;
-    /*border: .15rem hotpink solid;*/
+input {
+    width: 12rem;
+    height: 1.5rem;
+    margin-top: 3px;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.fname, .lname, .email, .password, .confirm, .phone {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
     width: 15rem;
-    height: 4rem;
-}
 
-.main-text {
-    /*border: .15rem hotpink solid;*/
-    padding: 1rem;
-    width: 30rem;
 }
 
 button {
     width: 10rem;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
 }
 
-.end-matter {
-    width: 30rem;
-    /*border: .15rem hotpink solid;*/
-    padding: 1rem;
+.form-legend {
+    width: 100%;
 }
 
-.should-be-legend {
-    /*border: .15rem hotpink solid;*/
-    width: 30rem;
-    padding: 1rem;
-    font-weight: bold;
+label {
+    font-size: .95rem;
 }
 
-.img {
-    position: relative;
-    margin: 0;
+.acct-owner {
+    margin-left: 30px;
 }
-
-.image-credit {
-    position: absolute;
-    color: hotpink;
-    bottom: 10px;
-    left: 28%;
-}
-
-a {
-    color: hotpink;
-}
-
-
